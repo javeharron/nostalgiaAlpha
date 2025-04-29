@@ -1,0 +1,8 @@
+Setting up environment with Anaconda:
+conda create -n stimpres
+conda activate stimpres
+pip install pyautogui
+pip install keyboard
+pip install pandas
+pip install numpy
+pip install brainflow
