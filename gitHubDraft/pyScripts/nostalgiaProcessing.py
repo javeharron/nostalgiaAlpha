@@ -34,9 +34,12 @@ phonemeList=list()
 
 
 subNames=list(['GTP000','GTP003','GTP004','GTP007','GTP044','GTP045','GTP047','GTP104','GTP223','GTP303','GTP308','GTP455','GTP545','GTP556','GTP762','GTP765'])
-subNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010'])
+subNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010','Nos101','Nos109','Nos111','Nos112','Nos125','Nos133','Nos222'])
 subName='Nos000'
-subName=subNames[10]
+# nos101
+subName=subNames[11]
+#nos222
+subName=subNames[17]
 
 dirSub='C:/nostalgiaAlpha/eegData/'+subName +'/'
 subName = subName.upper()

@@ -8,8 +8,8 @@ import pandas as pd
 
 from utilityFunctions import pairLoader
 
-allSubNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010','allSub'])
-subNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010'])
+allSubNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010','Nos101','allSub'])
+subNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010','Nos101','Nos109','Nos111','Nos112','Nos125','Nos133','Nos222'])
 [X0,y0]=pairLoader(subNames[0])
 [xw,xh]=np.shape(X0)
 

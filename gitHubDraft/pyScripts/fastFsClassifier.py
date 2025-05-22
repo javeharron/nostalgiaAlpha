@@ -32,7 +32,7 @@ from scipy import stats
 N=4
 featureNumber=int(3)
 
-allSubNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010','allSub'])
+allSubNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010','Nos101','Nos109','Nos111','Nos112','Nos125','Nos133','Nos222','allSub'])
 stringName='nosFsClassifierResults.csv'
 
 # initialize lists
