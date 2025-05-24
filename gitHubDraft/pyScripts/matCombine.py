@@ -8,8 +8,8 @@ import pandas as pd
 
 from utilityFunctions import pairLoader
 
-allSubNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010','Nos101','allSub'])
-subNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010','Nos101','Nos109','Nos111','Nos112','Nos125','Nos133','Nos222'])
+allSubNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010','Nos101','Nos109','Nos111','Nos112','Nos125','Nos133','Nos222','Nos242','Nos554','allSub'])
+subNames=list(['Nos000','Nos001','Nos002','Nos003','Nos004','Nos005','Nos006','Nos007','Nos008','Nos009','Nos010','Nos101','Nos109','Nos111','Nos112','Nos125','Nos133','Nos222','Nos242','Nos554'])
 [X0,y0]=pairLoader(subNames[0])
 [xw,xh]=np.shape(X0)
 
@@ -33,8 +33,8 @@ for subName in subNames:
 	print(np.shape(X0))
 	print(np.shape(y0))
 df = pd.DataFrame(X0)
-outNamData='allSubData.csv'
-outNamLabels='allSubLabels.csv'
+outNamData='allSub_Data.csv'
+outNamLabels='allSub_Labels.csv'
 
 df.to_csv(outNamData,sep=',')
 
